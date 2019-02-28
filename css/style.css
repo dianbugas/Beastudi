@@ -4,15 +4,21 @@ html {
 
 body {
 	margin-bottom: 120px;
-	margin-top: 30px;
+	margin-top: 80px;
 }
+
+.navbar {
+	height: 90px;
+}
+
+.page-scroll {}
 
 .jumbotron {
 	height: 500px;
-	background-image: url(../img/header-bg.png);
+	background-image: url(../img/1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 0 -140px;
+	background-position: 0px;
 	overflow: hidden;
 	position: relative;
 }
@@ -22,9 +28,10 @@ body {
 	border: 5px solid #ddd;
 }
 
-.jumbotron h1, .jumbotron p {
-	color: rgba(255,255,255,.8);
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+.jumbotron h1,
+.jumbotron p {
+	color: rgba(255, 255, 255, .8);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 hr {
@@ -36,7 +43,8 @@ section {
 	min-height: 600px;
 }
 
-.kiri, .kanan {
+.kiri,
+.kanan {
 	opacity: 0;
 	transform: translate(-50px, 0);
 	transition: 1.2s;
@@ -46,7 +54,8 @@ section {
 	transform: translate(50px, 0);
 }
 
-.kiri-go, .kanan-go {
+.kiri-go,
+.kanan-go {
 	opacity: 1;
 	transform: translate(0, 0);
 }
@@ -57,13 +66,13 @@ section {
 
 .portfolio .thumbnail {
 	opacity: 0;
-	transform: translate(0,-40px);
+	transform: translate(0, -40px);
 	transition: .3s;
 }
 
 .portfolio .thumbnail.muncul {
 	opacity: 1;
-	transform: translate(0,0);
+	transform: translate(0, 0);
 }
 
 .contact {
@@ -87,14 +96,3 @@ footer p {
 footer p i {
 	color: salmon;
 }
-
-
-
-
-
-
-
-
-
-
-
