@@ -7,18 +7,21 @@ body {
 	margin-top: 120px;
 }
 
+
 hr {
 	width: 350px;
 	border-top: 3px solid #999;
 }
 
 section {
-	min-height: 550px;
+	min-height: 500px;
 }
 
 .foto {
-	background-color: #eee;
+	background-color: rgb(235, 229, 229);
+	min-height: 550px;
 }
+
 
 .foto .thumbnail {
 	opacity: 0;
