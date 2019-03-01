@@ -17,19 +17,19 @@ section {
 	min-height: 500px;
 }
 
-.foto {
+.berita {
 	background-color: rgb(235, 229, 229);
 	min-height: 550px;
 }
 
 
-.foto .thumbnail {
+.berita .thumbnail {
 	opacity: 0;
 	transform: translate(0, -40px);
 	transition: .3s;
 }
 
-.foto .thumbnail.muncul {
+.berita .thumbnail.muncul {
 	opacity: 1;
 	transform: translate(0, 0);
 }
