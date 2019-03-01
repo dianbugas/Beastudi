@@ -4,21 +4,16 @@ html {
 
 body {
 	margin-bottom: 120px;
-	margin-top: 30px;
-}
-
-.jumbotron img {
-	width: 200px;
-	border: 5px solid #666;
+	margin-top: 120px;
 }
 
 hr {
-	width: 250px;
+	width: 350px;
 	border-top: 3px solid #999;
 }
 
 section {
-	min-height: 600px;
+	min-height: 550px;
 }
 
 .foto {
@@ -36,24 +31,32 @@ section {
 	transform: translate(0, 0);
 }
 
+.h2 {
+	color: #139bf5;
+	font-family: "Lato Regular";
+	font-size: 38px;
 
-.contact {
-	min-height: 800px;
+}
+
+.card-body {
+	color: #139bf5;
+	font-family: "Lato Regular";
+	text-align: center;
+
+}
+
+.col-md-7 p {
+	color: #707070;
+	font-size: 20px;
+	font-family: "Roboto";
 }
 
 footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: #333;
+	background-color: #c8c8c8;
 	padding-top: 25px;
-}
-
-footer p {
-	color: rgb(250, 248, 248);
-	font-size: 0.9em;
-}
-
-footer p i {
-	color: salmon;
+	font-family: 'Roboto';
+	font-size: #000000;
 }
